@@ -1,0 +1,76 @@
+.first_block{
+    background: #171C8F;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 500;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    font-weight: 400;
+    font-size: 15;
+    letter-spacing: 2.4px;
+    padding: 39px 0;
+}
+
+.navbar .menu{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+}
+
+.first_block section{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.header_girl{
+    width: 783px;
+    height:  685px;
+}
+
+
+.header_content {
+    padding-left: 67px;
+}
+.title {
+    color: #D7B9E4;
+    font-size: 53px;
+    font-weight: 900;
+    letter-spacing: 7.65px;
+    line-height: 84.2px;
+}
+.text {
+    font-size:21px;
+    color: white;
+    line-height: 37.2px;
+    letter-spacing: .24px;
+}
+
+.header_content button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header_flower1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.header_flower2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.header_flower3 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+}
